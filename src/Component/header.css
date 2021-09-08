@@ -1,0 +1,297 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.nav{
+  position:absolute;
+  z-index: 1;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  padding:10px;
+  background: rgba(0,0,0, 0.5);
+  font-family: 'Bebas Neue', cursive;;
+}
+
+.logo{
+    flex:20%;
+    text-align: center;
+    color:white;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+}
+.logo h2{
+    transition: all .3s linear;
+}
+.logo h2:hover{
+    font-size: 25px;
+}
+.menu{
+    flex:60%;
+    text-align: center;
+}
+.menu a{
+    padding:15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: all .3s linear;
+}
+.x{
+  font-size: 20px;
+  padding-right: 2px;
+  transition: all .3s ease-in;
+  color:white;
+}
+.menu a:hover x{
+  transform: rotate(90deg);
+}
+
+.menu a:hover{
+    color:orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.cv{
+    flex:15%;
+    text-align: center;
+}
+
+.cv button{
+    padding:5px;
+    font-size: 14px;
+    background:transparent;
+    border:2px solid red;
+    color:white;
+    font-weight: bolder;
+    transition: all .3s linear;
+
+}
+.cv button:hover{
+    padding:8;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1070px){
+    .logo{
+        font-size: 12px;
+    }   
+    .logo h2:hover{
+        font-size: 20px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .cv button{
+        font-size: 12px;
+    }
+    .cv button:hover{
+        padding:8;
+        font-size: 14px;
+    }
+    .x{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:975px){
+  .logo{
+      order: 1;
+  }
+  .cv{
+      order: 2;
+  }
+  .menu{
+      order: 3;
+  }
+  .nav{
+      flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width:785px){
+    .logo{
+        font-size: 8px;
+    }   
+    .logo h2:hover{
+        font-size: 12px;
+    }
+    .menu a{
+        font-size: 10px;
+    }
+    .cv button{
+        font-size: 8px;
+    }
+    .cv button:hover{
+        padding:8;
+        font-size: 10px;
+    }
+    .x{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:785px){
+    .logo{
+        font-size: 8px;
+        flex:25%;
+    }   
+    .logo h2:hover{
+        font-size: 10px;
+    }
+    .menu a{
+        font-size: 8px;
+    }
+    .cv button{
+        font-size: 8px;
+    }
+    .cv button:hover{
+        padding:8;
+        font-size: 9px;
+    }
+    .x{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:580px){
+    .logo{
+        font-size: 6px;
+        letter-spacing: 1px;
+        flex:25%;
+    }   
+    .logo h2:hover{
+        font-size: 8px;
+    }
+    .menu a{
+        font-size: 6px;
+        padding:8px;
+    }
+    .cv button{
+        font-size: 6px;
+        padding:3px;
+    }
+    .cv button:hover{
+        padding:8;
+        font-size: 7px;
+    }
+    .x{
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width:475px){
+    .nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }   
+    .logo h2:hover{
+        font-size: 10px;
+    }
+    .menu a{
+        font-size: 2px;
+        padding:4px;
+    }
+    .cv button{
+        font-size: 8px;
+        padding:2px;
+    }
+    .cv button:hover{
+        padding:6;
+        font-size: 9px;
+    }
+    .x{
+        font-size: 6px;
+    }
+
+}
+
+
+@media screen and (max-width:450px){
+    .logo{
+        font-size: 7px;
+        letter-spacing: 1px;
+    }   
+    .logo h2:hover{
+        font-size: 8px;
+    }
+    .menu a{
+        font-size: 6px;
+        padding:5px;
+    }
+    .cv button{
+        font-size: 7px;
+        padding:2px;
+    }
+    .cv button:hover{
+        padding:6;
+        font-size: 8px;
+    }
+    .x{
+        font-size: 5px;
+    }
+
+}
+
+
+@media screen and (max-width:435px){
+    .menu a{
+        padding:5px;
+        letter-spacing: 0;
+    }
+}
+@media screen and (max-width:340px){
+    .menu a{
+        font-size: 1.5px;
+        padding:5px;
+        letter-spacing: 0;
+    }
+}
+
+
+@media screen and (max-width:1070px){
+    .logo{
+        font-size: 12px;
+    }   
+    .logo h2:hover{
+        font-size: 20px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .cv button{
+        font-size: 12px;
+    }
+    .cv button:hover{
+        padding:8;
+        font-size: 14px;
+    }
+    .x{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1135px){
+    .menu a{
+        font-size: 12px;
+    }
+    .x{
+        font-size: 12px;
+    }
+}
+

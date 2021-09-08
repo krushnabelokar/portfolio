@@ -1,0 +1,314 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E1E8EB;
+}
+
+.hbody{
+    padding-top:5%;
+    position:relative;
+    display:flex;
+    width:100vw;
+    height:90vh;
+    clip-path: polygon(0 0, 100% 0,100% 90%, 50% 100%,0 90%, 0 0);
+    background:url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+    background-attachment: fixed;
+}
+.content{
+    margin-top:10%;
+    flex:70%;
+    text-align: center;
+    color:white;
+    line-height: 2.5em;
+    transition: .2s linear;
+}
+#wel span{
+    color:#FF1E56;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive;
+letter-spacing: 2px;
+}
+#about{
+  color:#118DF0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+#design span{
+    color:#FFA41B;
+}
+.img{
+    flex:30%
+}
+
+.img img{
+    width:60%;
+    height:95%;
+}
+ .social{
+    margin-top:20px;
+ }
+.social a{
+    padding:15px;
+    margin:5px;
+    background:#E1E8EB;
+    border-radius: 100px;
+    font-size: 30px;
+}
+.social .fas{
+    transition: all .4s linear;
+}
+.l{
+    color:#03A9F4;
+}
+.l:hover{
+    transform: scale(1.4);
+}
+.f{
+    color:#03A9F4;
+}
+.f:hover{
+    transform: scale(1.4);
+}
+.i{
+    color:red;
+}
+.i:hover{
+    transform: scale(1.4);
+}
+.t{
+    color:#00ADB5;
+}
+.t:hover{
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:980px) {
+   .hbody{
+    padding-top:10%;
+   }
+}
+
+@media screen and (max-width:880px) {
+    .hbody{
+     padding-top:12%;
+     height:70vh;
+    }
+
+    #wel{
+        font-size:25px;
+    }
+    #about{
+        font-size:20px;
+    }
+
+    #design{
+        font-size:30px;
+    }
+
+    .img img{
+        width:80%;
+    }
+
+ }
+ @media screen and (max-width:700px){
+    .hbody{
+         height: 60vh;
+       }
+
+       .content{
+           margin-top:5%;
+       }
+       #wel{
+        font-size:20px;
+    }
+    #about{
+        font-size:18px;
+    }
+
+    #design{
+        font-size:25px;
+    }
+
+       .social a{
+        padding:8px;
+        font-size: 25px;
+    }
+    .img img{
+        width:90%;
+    }
+ }
+
+ @media screen and (max-width:500px){
+    .hbody{
+         height: 50vh;
+       }
+ }
+@media screen and (max-width:536px) {
+    .hbody{
+     padding-top:17%;
+     height:45vh;
+    }
+    .img img{
+        width:70%;
+    }
+    #wel{
+        font-size:20px;
+    }
+    #about{
+        font-size:15px;
+    }
+
+    #design{
+        font-size:20px;
+    }
+    .content{
+        line-height: 1em;
+        margin-top:8%;
+    }
+    
+    .social a{
+        padding:4px;
+        font-size: 15px;
+    }
+ }
+  
+@media screen and (max-width:460px) {
+    .hbody{
+     padding-top:20%;
+     height:70%;
+    }
+    .img img{
+        width:80%;
+    }
+    #wel{
+        font-size:18px;
+    }
+    #about{
+        font-size:15px;
+    }
+    #design{
+        font-size:18px;
+    }
+
+    .social{
+        margin-top:15px;
+     }
+
+     .social a{
+        padding:10px;
+        margin:5px;
+        background:#E1E8EB;
+        border-radius: 100px;
+        font-size: 25px;
+    }
+
+ }
+   
+@media screen and (max-width:415px) {
+    .hbody{
+     padding-top:20%;
+     height:50%;
+    }
+    .img img{
+        width:90%;
+    }
+    .content{
+        margin-top:7%;
+    }
+
+    #wel{
+        font-size:15px;
+    }
+    #about{
+        font-size:15px;
+    }
+    #design{
+        font-size:15px;
+    }
+    .content{
+        line-height: 1.5em;
+    }
+ }
+
+   
+@media screen and (max-width:350px) {
+    .hbody{
+     padding-top:30%;
+     height:50%;
+    }
+    .img img{
+        width:100%;
+    }
+
+    #wel{
+        font-size:12px;
+    }
+    #about{
+        font-size:15px;
+    }
+    #design{
+        font-size:12px;
+    }
+    .content{
+        line-height: 1em;
+    }
+    .social a{
+        padding:6px;
+        margin:5px;
+        background:#E1E8EB;
+        border-radius: 100px;
+        font-size: 16px;
+    }
+ }
+
+    
+@media screen and (max-width:280px){
+    .hbody{
+        margin-top:30px;
+    }
+}
+
+
+ @media screen and (max-height:490px){
+    .content{
+        margin-top:8%;
+    }
+ }
+
+ 
+ @media screen and (max-height:460px){
+    .content{
+        margin-top:5%;
+    }
+    #wel span{
+        color:yellow;
+    }
+ }
+
+ 
+ @media screen and (max-height:400px){
+    .content{
+        margin-top:3%;
+    }
+    #wel span{
+        color:yellow;
+    }
+ }
+ 
+ @media screen and (max-height:365px){
+    .content{
+        margin-top:1%;
+    }
+    #wel span{
+        color:yellow;
+    }
+ }

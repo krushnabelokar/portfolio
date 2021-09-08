@@ -1,0 +1,51 @@
+<html>
+    <head>
+     <style>
+         *{
+             padding:0;
+             margin:0;
+             box-sizing: border-box;
+             background:red;
+             
+         }
+         .main{
+             display:flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+             justify-content: space-around;
+             padding:.5em;
+             box-sizing: border-box;
+             row-gap: 1em;
+         }
+         .main div{
+             height:500px;
+         }
+
+         .a1{
+            flex-basis: 30%;
+             background:yellow;
+         }
+         .a2{
+            flex-basis: 30%;
+             background:green;
+         }
+         .a3{
+            flex-basis: 30%;
+             background:pink;
+         }
+         .a4{
+             flex-basis: 30%;
+             background:blueviolet;
+         }
+         
+     </style>
+    </head>
+    <body>
+        <div class="main">
+           <div class="a1"></div>
+           <div class="a2"></div>
+           <div class="a3"></div>
+           <div class="a4"></div>
+        </div>
+    </body>
+</html>

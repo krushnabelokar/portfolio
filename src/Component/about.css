@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.aboutme{
+    background:#E1E8EB;
+    width:100vw;
+    height:100vh;
+}
+
+.aboutme h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color:#30475E;
+}
+
+.aboutflex{
+    display:flex;
+    justify-content: space-around;
+}
+
+.image{
+    flex:40%;
+    height:50%;
+}
+.image img{
+    width:400px;
+    height:550px;
+    background:#0A1931;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px #0A1931;
+}
+
+.text{
+    flex:60%;
+    height:100%;
+}
+
+.text h1{
+    text-align: left;
+    text-indent: 30px;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: #FF0B55;
+}
+
+h1 span{
+    color:#616F39;
+}
+.text p{
+    line-height: 2em;
+    color:#474A56;
+}
+
+#al{
+    color:#7971EA;
+    font-size: 1.5em;
+}
+
+#clg{
+    font-size: 1.2em;
+    color:black;
+}
+
+.text button{
+    padding:.5em;
+}

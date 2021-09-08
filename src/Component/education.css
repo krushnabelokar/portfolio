@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.edu{
+    width:100vw;
+    background-color: #202040;
+    padding:1em;
+}
+
+.edu h1{
+text-align: center;
+color:#FF7517;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Righteous', cursive;
+}
+
+.q{
+    color:#6A7EFC;
+}
+
+.educate{
+    display: flex;
+    width:100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:.5em;
+    row-gap:1em;
+}
+.educate > div{
+    height:auto;
+    box-shadow: 2px 4px 10px white;
+    border-radius: 10px 10px;
+}
+
+.tenth{
+    padding:.5em;
+    flex-basis: 29%;
+    background-color:#1976D2;
+}
+.c{
+    color:#BDBDBD;
+    font-size: 1.5em;
+}
+.per{
+    color:#CDDC39;
+    font-size: 1.5em;
+}
+.pass{
+    color:orange;
+    font-size: 1.5em;
+}
+.twelth{
+    flex-basis: 29%;
+    background-color:#1976D2;
+    padding:.5em;
+}
+.bca{
+        flex-basis: 29%;
+        background-color:#1976D2;
+        padding:.5em;
+}
+
+.mca{
+    flex-basis: 29%;
+    background-color:#1976D2;
+    padding:.5em;
+}
+
+.mc{
+    color:black;
+    font-size: 2em;
+}
+
+#dyp{
+    font-size: .9em;
+}
+.lg{
+    line-height: 1px;
+}
+.lg p{
+    text-align: center;
+    color:#EC9B3B;
+    font-size: 1.5em;
+}
+
+.main{
+    color:white;
+    font-size:1.2em;
+}
+#s{
+   color:black;
+}
+
+
+.p{
+    color:gold;
+    font-size: 1.5em;
+}

@@ -1,0 +1,160 @@
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.projects{
+    width:100vvw;
+    height: 100vh;
+    background: #D3D8DA;
+background: -webkit-linear-gradient(top left, #D3D8DA, #E4E6EF);
+background: -moz-linear-gradient(top left, #D3D8DA, #E4E6EF);
+background: linear-gradient(to bottom right, #D3D8DA, #E4E6EF);
+}
+
+.projects>h1{
+    text-align: center;
+    color:#FD0054;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow:5px 5px 10px #F8B500;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.proj{
+    margin-top:3em;
+    display:flex;
+    width:100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 1em;
+}
+
+.proj div{
+    flex-basis: 45%;
+    background:#EEEEEE;
+    box-shadow: 5px 5px 10px #B9D4F1;
+    padding:0 2em;
+
+}
+
+
+
+.book{
+    
+}
+.book h1{
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 5px 5px 20px #222831;
+}
+
+.book h2{
+    color:red;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-shadow: 7px 7px 10px white;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Righteous', cursive;
+}
+
+.list{
+    list-style-type: disc;
+    color:#7BC74D;
+    text-shadow: 5px 5px 10px black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ol{
+    color:black;
+    text-shadow: 4px 4px 10px white;
+}
+
+.calc{
+    color:white;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 10px black;
+}
+.calc h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 5px 5px 10px black;
+}
+
+.calc h1 span{
+    color:#FF5335;
+    text-shadow: 4px 4px 10px #0099FF;
+}
+
+.calc h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    color:#D3D8DA;
+    text-shadow: 2px 5px 15px red;
+    
+}
+
+.coun h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+}
+
+.coun h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.coun ul{
+    font-size: 1.5em;
+    text-shadow: 5px 5px 10px lightgray;
+}
+
+.result h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    color:white;
+}
+
+.result h2{
+    text-align: center;
+    font-size: 1.5em;
+    color:lightgray;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.result{
+    font-size: 1.5em;
+    color:white;
+}
+
+#lang{
+    font-size:1em;
+    color:Orange;
+}
