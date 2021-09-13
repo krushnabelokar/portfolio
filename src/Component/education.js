@@ -11,7 +11,7 @@ class Education extends React.Component{
                     <div className="tenth grow">
                         <div className="lg">
                          <h1><i class="fas mc fa-school"></i></h1>
-                         <p><strong>10th Class</strong></p>
+                         <p><strong id="cl">10th Class</strong></p>
                         </div><br/>
                         <div className="main">
                         <p><strong id="s"><i class="fas c fa-university"></i> College :</strong> Bharat Vidhyalaya Buldhana</p>
@@ -22,7 +22,7 @@ class Education extends React.Component{
                     <div className="twelth grow">
                     <div className="lg">
                          <h1><i class="fas mc fa-chalkboard-teacher"></i></h1>
-                         <p><strong>12th Class</strong></p>
+                         <p><strong id="cl">12th Class</strong></p>
                         </div><br/>
                     <div className="main">
                         <p><strong id="s"><i class="fas c fa-university"></i> College :</strong> Arjun Khimji jr. College</p>
@@ -33,7 +33,7 @@ class Education extends React.Component{
                     <div className="bca grow">
                     <div className="lg">
                          <h1><i class="fas mc fa-book-reader"></i></h1>
-                         <p><strong>Graduation (BCA)</strong></p>
+                         <p><strong id="cl">Graduation (BCA)</strong></p>
                         </div><br/>
                     <div className="main">
                         <p id="dyp"><strong id="s"><i class="fas c fa-university"></i> College :</strong> Dr.D.Y.Patil ACS College Akurdi - Pune</p>
@@ -44,10 +44,10 @@ class Education extends React.Component{
                     <div className="mca grow">
                     <div className="lg">
                          <h1><i class="fas mc fa-graduation-cap"></i></h1>
-                         <p><strong>Post Graduation(MCA) ... Pursuing</strong></p>
+                         <p><strong id="cl">Post Graduation(MCA) ... Pursuing</strong></p>
                         </div><br/>
                     <div className="main">
-                        <p id="dyp"><strong id="s"><i class="fas c fa-university"></i> College :</strong> Dr.D.Y.Patil Institute Of Management<br/>And Research - Pune</p>
+                        <p id="dyp"><strong id="s"><i class="fas c fa-university"></i> College :</strong> Dr.D.Y.Patil Institute Of Management And Research - Pune</p>
                         <p><strong id="s"><i class="fas  per fa-marker"></i> Percentage :</strong> 93.04%</p>
                         <p><strong id="s"><i class="fas pass fa-vote-yea"></i> PassOut Year :</strong> 2022</p>
                         </div>

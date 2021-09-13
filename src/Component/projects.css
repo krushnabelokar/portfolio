@@ -38,7 +38,7 @@ background: linear-gradient(to bottom right, #D3D8DA, #E4E6EF);
 .proj div{
     flex-basis: 45%;
     background:#EEEEEE;
-    box-shadow: 5px 5px 10px #B9D4F1;
+    box-shadow: 5px 5px 10px black;
     padding:0 2em;
 
 }
@@ -115,6 +115,8 @@ font-family: 'Righteous', cursive;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
+    color:white;
+    text-shadow: 5px 5px 10px black;
 }
 
 .coun h2{

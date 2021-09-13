@@ -6,7 +6,9 @@
 .aboutme{
     background:#E1E8EB;
     width:100vw;
-    height:100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-bottom:2em;
 }
 
 .aboutme h1{
@@ -15,20 +17,23 @@
     text-decoration: underline;
     text-decoration-color: orange;
     color:#30475E;
+    font-size:2rem;
 }
 
 .aboutflex{
     display:flex;
-    justify-content: space-around;
+    height: 100%;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .image{
     flex:40%;
-    height:50%;
+    box-sizing: border-box;
 }
 .image img{
-    width:400px;
-    height:550px;
+    width:70%;
+    height:500px;
     background:#0A1931;
     border-radius: 10px 10px;
     box-shadow: 5px 5px 5px #0A1931;
@@ -36,7 +41,7 @@
 
 .text{
     flex:60%;
-    height:100%;
+    padding:2rem 0;
 }
 
 .text h1{
@@ -67,4 +72,123 @@ h1 span{
 
 .text button{
     padding:.5em;
+}
+
+@media screen and (max-width:930px){
+    .aboutme h1{
+        font-size:1.8rem;
+    }
+
+    .image img{
+        height:500px;
+    }
+    .text h1{
+        text-align: left;
+        text-indent: 25px;
+        color:black;
+        text-decoration: underline;
+        text-decoration-color: #FF0B55;
+        font-size: 1.5em;
+    }
+
+    .text p{
+        line-height: 1.5em;
+        color:#474A56;
+        font-size: 1em;
+    }
+
+    #al{
+        font-size: 1.2em;
+    }
+
+    
+}
+@media screen and (max-width:700px){
+    .image img{
+        height:400px;
+    }
+
+    .text h1{
+        font-size: 1.2em;
+    }
+
+    .text p{
+        line-height: 1.5em;
+        color:#474A56;
+        font-size: .8em;
+    }
+
+    #al{
+        font-size: 1em;
+    }
+    
+}
+
+
+@media screen and (max-width:550px){
+    .aboutme h1{
+        font-size:1.5rem;
+    }
+    .image img{
+        height:300px;
+    }
+    .text h1{
+        font-size: 1em;
+    }
+
+    .text p{
+        line-height: 1.2em;
+        color:#474A56;
+        font-size: .7em;
+    }
+
+    #al{
+        font-size: 1em;
+    }
+    
+}
+
+@media screen and (max-width:465px){
+    .aboutme h1{
+        font-size:1rem;
+    }
+    .image img{
+        height:250px;
+    }
+    .text h1{
+        font-size: .8em;
+    }
+
+    .text p{
+        line-height: 1em;
+        color:#474A56;
+        font-size: .6em;
+    }
+
+    #al{
+        font-size: .8em;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .aboutflex{
+        flex-direction: column;
+    }
+    .image img{
+        text-align: center;
+    }
+    .text{
+        padding:0 2em;
+        margin-top:1em;
+    }
+
+    .text p{
+        line-height: 1.5em;
+    }
+
+    .text h1{
+        text-align: center;
+        font-size: .7rem;
+    }
 }

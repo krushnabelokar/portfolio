@@ -99,3 +99,116 @@ font-family: 'Righteous', cursive;
     color:gold;
     font-size: 1.5em;
 }
+
+@media screen and (max-width:1450px){
+    .edu h1{
+        font-size:1.8em;
+        }
+        
+    #cl{
+        font-size:1em;
+    }
+     .educate{
+         justify-content: space-between;
+         column-gap: 5%;
+     }
+    .educate div{
+        flex:40%;
+        text-align: center;
+    }
+
+}
+
+    
+@media screen and (max-width:900px){
+    .edu h1{
+        font-size:1.6em;
+        }
+        
+    #cl{
+        font-size:.7em;
+    }
+     .educate{
+         justify-content: space-between;
+         column-gap: 5%;
+     }
+    .educate div{
+        flex:40%;
+        text-align: center;
+    }
+
+    .mc{
+        font-size: 1.8em;
+    }
+
+    .c{
+        font-size: 1.2em;
+    }
+}
+
+    
+@media screen and (max-width:650px){
+    .edu h1{
+        font-size:1.4em;
+        }
+        
+    #cl{
+        font-size:.5em;
+    }
+     .educate{
+         justify-content: space-between;
+         column-gap: 5%;
+     }
+    .educate div{
+        flex:40%;
+        text-align: center;
+    }
+
+    .mc{
+        font-size: 1.5em;
+    }
+
+    .c{
+        font-size: 1em;
+    }
+
+    .main{
+        color:white;
+        font-size:1em;
+    }
+}
+
+   
+@media screen and (max-width:500px){
+    .edu h1{
+        font-size:1em;
+        }
+        
+    #cl{
+        font-size:.6em;
+    }
+     .educate{
+         justify-content: space-between;
+         column-gap: 5%;
+     }
+    .educate div{
+        flex:80%;
+        text-align: center;
+    }
+
+    .mc{
+        font-size: 1.5em;
+    }
+
+    .c{
+        font-size: 1em;
+    }
+
+    .main{
+        color:white;
+        font-size:1em;
+    }
+
+}
+
+   
