@@ -6,6 +6,8 @@ import HBody from './Component/hbody.js';
 import About from './Component/about.js';
 import Education from './Component/education';
 import Projects from './Component/projects';
+import ContactMe from './Component/contact';
+import Copyright from './Component/copyright';
 
 class Main extends React.Component{
   render(){
@@ -25,6 +27,12 @@ class Main extends React.Component{
       </div>
       <div>
         <Projects/>
+      </div>
+      <div>
+        <ContactMe/>
+      </div>
+      <div>
+        <Copyright/>
       </div>
       </div>
     );

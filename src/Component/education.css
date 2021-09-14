@@ -24,10 +24,11 @@ font-family: 'Righteous', cursive;
 .educate{
     display: flex;
     width:100vw;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding:.5em;
-    row-gap:1em;
+    padding:2%;
+    row-gap:1.5em;
+    column-gap: 2%;
 }
 .educate > div{
     height:auto;
@@ -110,7 +111,8 @@ font-family: 'Righteous', cursive;
     }
      .educate{
          justify-content: space-between;
-         column-gap: 5%;
+         column-gap: 2%;
+         padding:0 5%;
      }
     .educate div{
         flex:40%;
@@ -188,7 +190,7 @@ font-family: 'Righteous', cursive;
         font-size:.6em;
     }
      .educate{
-         justify-content: space-between;
+         justify-content: center;
          column-gap: 5%;
      }
     .educate div{

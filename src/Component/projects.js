@@ -9,10 +9,10 @@ import result from '../images/result.jpg';
 class Projects extends React.Component{
     render(){
         return(
-          <div className="projects">
+          <div className="projects" id="proj">
                   <h1>Projects</h1>
             <div className="proj">
-              <div className="book grow" style={{ backgroundImage:`url(${book})`, backgroundRepeat:'no-repeat', backgroundSize:'Cover'}}>
+              <div className="book grow">
                   <h1>Book Shop Management System</h1>
                      <h2>About Project</h2>
                      <ul className='list'>
@@ -30,8 +30,8 @@ class Projects extends React.Component{
                          <li><a href="https://github.com/krushnabelokar/Book-Shop-Management-System" target="_blank">Click Here To See Git Repo...</a></li>
                      </ul>
               </div>
-              <div className="calc grow" style={{ backgroundImage:`url(${calc})`, backgroundRepeat:'no-repeat', backgroundSize:'Cover'}}>
-                  <h1>Simple Calculator In <span>ReactJs</span></h1>
+              <div className="calc grow">
+                  <h1>Simple Calculator In ReactJs</h1>
                   <h2>About Project</h2>
                   <ul>
                       <li>This Is just a simple Calculator when I started learning and understanding ReactJs</li>
@@ -41,7 +41,7 @@ class Projects extends React.Component{
                   </ul>
 
               </div>
-              <div className="coun grow" style={{ backgroundImage:`url(${coun})`, backgroundRepeat:'no-repeat', backgroundSize:'Cover'}}>
+              <div className="coun grow">
                     <h1>Online Counselling System</h1>
                       <h2>About Project</h2>
                       <ul>
@@ -55,7 +55,7 @@ class Projects extends React.Component{
                           <li><a href="#">Git Repo Link</a></li>
                       </ul>
               </div>
-              <div className="result grow" style={{ backgroundImage:`url(${result})`, backgroundRepeat:'no-repeat', backgroundSize:'Cover'}}>
+              <div className="result grow">
                 <h1>Result Evaluation System</h1>
                 <h2>About Project</h2>
                 <ul>

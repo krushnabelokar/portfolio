@@ -5,7 +5,7 @@ import './education.css';
 class Education extends React.Component{
     render(){
         return(
-            <div className="edu">
+            <div className="edu" id="edu">
                 <h1 id="qd" className="grow"><i class="fas q fa-graduation-cap"></i> QUALIFICATIONAL DETAILS <i class="fas fa-laptop-code q"></i></h1><br/>
                 <div className="educate">
                     <div className="tenth grow">

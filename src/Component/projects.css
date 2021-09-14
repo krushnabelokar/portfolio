@@ -7,12 +7,12 @@
 }
 
 .projects{
-    width:100vvw;
-    height: 100vh;
+    width:100vw;
     background: #D3D8DA;
-background: -webkit-linear-gradient(top left, #D3D8DA, #E4E6EF);
-background: -moz-linear-gradient(top left, #D3D8DA, #E4E6EF);
-background: linear-gradient(to bottom right, #D3D8DA, #E4E6EF);
+    background: -webkit-linear-gradient(top left, #D3D8DA, #E4E6EF);
+    background: -moz-linear-gradient(top left, #D3D8DA, #E4E6EF);
+    background: linear-gradient(to bottom right, #D3D8DA, #E4E6EF);
+    padding-bottom: 3%;
 }
 
 .projects>h1{
@@ -40,40 +40,37 @@ background: linear-gradient(to bottom right, #D3D8DA, #E4E6EF);
     background:#EEEEEE;
     box-shadow: 5px 5px 10px black;
     padding:0 2em;
+    background-color: #A3CB38;
+    border-radius: 20px;
+    font-weight: bold;
 
 }
 
-
-
-.book{
-    
-}
 .book h1{
     text-align: center;
-    color:white;
-    font-size: 2em;
+    color:black;
+    font-size: 1.5em;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
     text-shadow: 5px 5px 20px #222831;
 }
 
 .book h2{
-    color:red;
+    color:#BB371A;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.3em;
     text-decoration: underline;
     text-decoration-color: orange;
     text-shadow: 7px 7px 10px white;
     font-family: 'Bebas Neue', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
 }
 
 .list{
     list-style-type: disc;
-    color:#7BC74D;
-    text-shadow: 5px 5px 10px black;
-    font-size: 1.5em;
+    color:blak;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -83,21 +80,15 @@ font-family: 'Righteous', cursive;
 }
 
 .calc{
-    color:white;
-    font-size: 1.5em;
-    text-shadow: 4px 4px 10px black;
+    color:black;
+    font-size: 1em;
 }
 .calc h1{
-    color:white;
+    font-size:1.5em;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
-    text-shadow: 5px 5px 10px black;
-}
-
-.calc h1 span{
-    color:#FF5335;
-    text-shadow: 4px 4px 10px #0099FF;
+    text-shadow: 5px 5px 20px #222831;
 }
 
 .calc h2{
@@ -105,58 +96,68 @@ font-family: 'Righteous', cursive;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
     font-family: 'Righteous', cursive;
-    font-size: 1.5em;
-    color:#D3D8DA;
-    text-shadow: 2px 5px 15px red;
-    
+    font-size: 1.3em;
+    color:#BB371A;
 }
 
 .coun h1{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
-    color:white;
+    color:black;
     text-shadow: 5px 5px 10px black;
+    font-size: 1.5em;
 }
 
 .coun h2{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
     font-family: 'Righteous', cursive;
     text-decoration: underline;
-    text-decoration-color: red;
+    color:#BB371A;
 }
 
 .coun ul{
-    font-size: 1.5em;
-    text-shadow: 5px 5px 10px lightgray;
+    font-size: 1em;
 }
 
 .result h1{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
-    color:white;
+    color:black;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 20px #222831;
 }
 
 .result h2{
     text-align: center;
-    font-size: 1.5em;
-    color:lightgray;
+    font-size: 1.3em;
+    color:#BB371A;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Fredoka One', cursive;
     font-family: 'Righteous', cursive;
     text-decoration: underline;
-    text-decoration-color: red;
 }
 .result{
-    font-size: 1.5em;
-    color:white;
+    font-size: 1em;
+    color:black;
 }
 
 #lang{
     font-size:1em;
-    color:Orange;
+    color:black;
 }
+
+@media screen and (max-width:900px){
+    .proj div{
+        flex:90%;
+    }
+    
+    .proj{
+        padding:0 5%;
+    }
+}
+
